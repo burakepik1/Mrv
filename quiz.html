@@ -1,0 +1,23 @@
+<div
+  id="quiz-container"
+  class="bg-white p-8 rounded shadow-md w-full max-w-md flex flex-col items-center justify-center min-h-[400px] mx-auto"
+>
+  <h1 class="text-2xl font-bold mb-4 text-center">Quiz</h1>
+  <div id="question" class="mb-6 text-lg font-medium text-center"></div>
+  <div id="choices" class="flex flex-col gap-3 w-full"></div>
+</div>
+<div
+  id="popup"
+  class="fixed inset-0 bg-white/30 backdrop-blur flex items-center justify-center hidden"
+>
+  <div class="bg-white rounded-lg p-6 shadow-lg text-center">
+    <div id="popup-message" class="text-xl font-semibold mb-4"></div>
+    <button
+      id="popup-btn"
+      class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+    >
+      Sıradaki soru
+    </button>
+  </div>
+</div>
+<script src="quiz.js"></script>

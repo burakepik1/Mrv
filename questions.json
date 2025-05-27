@@ -1,0 +1,53 @@
+[
+  {
+    "question": "Burak Epik sizi ilk nerede görmüştür?",
+    "choices": ["Hastane", "Tiyatro", "Amaris Garden", "Çorum"],
+    "answer": 2
+  },
+  {
+    "question": "Burak Epik sizi ilk gördüğünde üzerinizde ne renk elbise vardı?",
+    "choices": ["Elma Yeşili", "Armut Yeşili", "Yeşil Zeytin", "Çağla Yeşili"],
+    "answer": 3
+  },
+  {
+    "question": "Burak Epik ile ilk yediğiniz yemek neydi?",
+    "choices": ["Pizza", "Lahmacun", "Döner", "Karides"],
+    "answer": 1
+  },
+  {
+    "question": "Burak Epik ile ilk kahvaltı yaptığınız park neresiydi?",
+    "choices": ["Zafer Parkı", "Ahlatlıbel Parkı", "Yıldız Parkı", "Gazi Parkı"],
+    "answer": 0
+  },
+  {
+    "question": "Burak Epik ile ilk kimin konserine gittiniz?",
+    "choices": ["İnce Ses", "İnce İnce Yasemince", "Muharrem İnce", "İnce Saz"],
+    "answer": 3
+  },
+  {
+    "question": "Burak Epik ile ilk hangi tiyatroya gittiniz?",
+    "choices": ["Donör", "Döner", "Hırçın Kız", "Seneye Bugün"],
+    "answer": 0
+  },
+  
+  {
+    "question": "Burak Epik ile tanışmanızda rol oynayan nesne nedir?",
+    "choices": ["Kitap", "Musluk", "Şemsiye", "Sandalye"],
+    "answer": 2
+  },
+  {
+    "question": "Burak Epik size ilk mesajını hangi tarihte ve hangi mesajla atmıştır?",
+    "choices": ["18.08.2024 - Selamınaleyküm", "18.08.2024 - Merve Merhaba", "18.09.2024 - Merhaba", "18.09.2025 - Selam"],
+    "answer": 1
+  },
+  {
+    "question": "Burak Epik size uzun uzun bir şey anlatığında ona verdiğiniz tepki genelde ne oluyor?",
+    "choices": ["Aynen", "Hı hı", "Belki", "Evet"],
+    "answer": 3
+  },
+  {
+    "question": "Burak Epik size hayatınızın bundan sonraki her anına talip olduğunu söylediği mekanın adı neydi?",
+    "choices": ["Nite", "Vazelin", "Visorante", "Aspava"],
+    "answer": 2
+  }
+]

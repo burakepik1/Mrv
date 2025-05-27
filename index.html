@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>31.05.2025</title>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div id="game-area" class="w-full flex items-center justify-center min-h-screen relative overflow-hidden">
+      <!-- Ortak arka plan fotoğrafları (2x2 grid şeklinde) -->
+      <img src="images/bg1.png" class="absolute top-0 left-0 w-1/2 h-1/2 object-cover object-center opacity-40 select-none pointer-events-none" alt="bg1" />
+      <img src="images/bg2.png" class="absolute top-0 right-0 w-1/2 h-1/2 object-cover object-center opacity-40 select-none pointer-events-none" alt="bg2" />
+      <img src="images/bg3.png" class="absolute bottom-0 left-0 w-1/2 h-1/2 object-cover object-center opacity-40 select-none pointer-events-none" alt="bg3" />
+      <img src="images/bg4.png" class="absolute bottom-0 right-0 w-1/2 h-1/2 object-cover object-center opacity-40 select-none pointer-events-none" alt="bg4" />
+      <!-- Dinamik içerik alanı (şifre, quiz, kart oyunu vs.) -->
+      <div id="content-area" class="z-10 w-full flex items-center justify-center">
+        <!-- Şifre alanı veya quiz/card oyunu buraya yüklenecek -->
+        <div id="password-area" class="flex flex-col items-center gap-4">
+          <label for="password" class="text-lg font-semibold">3 Haneli Şifre:</label>
+          <input id="password" type="text" maxlength="3" class="border rounded px-4 py-2 text-center text-xl" />
+          <button id="password-btn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Giriş</button>
+          <div id="password-error" class="text-red-500 text-sm hidden">Şifre yanlış!</div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
